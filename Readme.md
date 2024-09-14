@@ -5,18 +5,6 @@ Here’s a detailed `README.md` file that includes explanations for all the comp
 
 Welcome to the Sleep Tracker API! This API is designed to help users track and manage their sleep patterns. It allows for user registration, updating various sleep metrics, and retrieving sleep efficiency data.
 
-## Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Environment Variables](#environment-variables)
-- [API Endpoints](#api-endpoints)
-  - [User Registration](#user-registration)
-  - [Update Sleep Metrics](#update-sleep-metrics)
-  - [Retrieve Sleep Efficiency](#retrieve-sleep-efficiency)
-- [License](#license)
-
 ## Features
 
 - **User Registration**: Allows new users to register and receive authentication tokens.
