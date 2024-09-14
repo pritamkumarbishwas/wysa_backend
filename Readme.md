@@ -32,7 +32,7 @@ To set up the project locally, follow these steps:
 Clone the repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/your-username/sleep-tracker-api.git
+git clone https://github.com/pritamkumarbishwas/wysa_backend.git
 cd sleep-tracker-api
 ```
 
