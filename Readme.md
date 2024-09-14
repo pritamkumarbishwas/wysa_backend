@@ -3,7 +3,8 @@ Here’s a detailed `README.md` file that includes explanations for all the comp
 ```markdown
 # Sleep Tracker API
 
-Welcome to the Sleep Tracker API! This API is designed to help users track and manage their sleep patterns. It allows for user registration, updating various sleep metrics, and retrieving sleep efficiency data.
+Welcome to the Sleep Tracker API! This API is designed to help users track and manage their sleep patterns.
+It allows for user registration, updating various sleep metrics, and retrieving sleep efficiency data.
 
 ## Features
 
