@@ -62,8 +62,11 @@ Create a `.env` file in the root directory of the project and add the following 
 ```plaintext
 PORT=8000
 MONGODB_URI=your-mongodb-uri
+CORS_ORIGIN=your-origin
 ACCESS_TOKEN_SECRET=your-access-token-secret
 REFRESH_TOKEN_SECRET=your-refresh-token-secret
+ACCESS_TOKEN_EXPIRY=1d
+REFRESH_TOKEN_EXPIRY=10d
 ```
 
 Replace `your-mongodb-uri`, `your-access-token-secret`, and `your-refresh-token-secret` with your actual MongoDB connection string and secret keys.
