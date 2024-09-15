@@ -3,19 +3,8 @@ Here’s a detailed `README.md` file that includes explanations for all the comp
 ```markdown
 # Sleep Tracker API
 
-Welcome to the Sleep Tracker API! This API is designed to help users track and manage their sleep patterns. It allows for user registration, updating various sleep metrics, and retrieving sleep efficiency data.
-
-## Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Environment Variables](#environment-variables)
-- [API Endpoints](#api-endpoints)
-  - [User Registration](#user-registration)
-  - [Update Sleep Metrics](#update-sleep-metrics)
-  - [Retrieve Sleep Efficiency](#retrieve-sleep-efficiency)
-- [License](#license)
+Welcome to the Sleep Tracker API! This API is designed to help users track and manage their sleep patterns.
+It allows for user registration, updating various sleep metrics, and retrieving sleep efficiency data.
 
 ## Features
 
@@ -43,7 +32,7 @@ To set up the project locally, follow these steps:
 Clone the repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/your-username/sleep-tracker-api.git
+git clone https://github.com/pritamkumarbishwas/wysa_backend.git
 cd sleep-tracker-api
 ```
 
@@ -62,8 +51,11 @@ Create a `.env` file in the root directory of the project and add the following 
 ```plaintext
 PORT=8000
 MONGODB_URI=your-mongodb-uri
+CORS_ORIGIN=your-origin
 ACCESS_TOKEN_SECRET=your-access-token-secret
 REFRESH_TOKEN_SECRET=your-refresh-token-secret
+ACCESS_TOKEN_EXPIRY=1d
+REFRESH_TOKEN_EXPIRY=10d
 ```
 
 Replace `your-mongodb-uri`, `your-access-token-secret`, and `your-refresh-token-secret` with your actual MongoDB connection string and secret keys.
