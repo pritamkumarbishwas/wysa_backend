@@ -13,6 +13,11 @@ It allows for user registration, updating various sleep metrics, and retrieving 
 - **Update Sleep Metrics**: Users can update their sleep-related data, including weekly sleep patterns, sleep time, hours slept, and more.
 - **Retrieve Sleep Efficiency**: Users can retrieve their sleep efficiency data.
 
+## Note. Setup Api Collection
+
+- **import **wysa.postman_collection.json** collection form api-collection folder in Postman and other testing tool . then test api end point
+
+
 ## Tech Stack
 
 - **Node.js**: JavaScript runtime built on Chrome's V8 JavaScript engine.
@@ -43,9 +48,6 @@ Install the required Node.js packages by running:
 ```bash
 npm install
 ```
-### Note. Setup Api Collection
-
-import **wysa.postman_collection.json** collection form api-collection folder in Postman and other testing tool . then test api end point
 
 
 ### 3. Set Up Environment Variables
