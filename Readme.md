@@ -15,7 +15,8 @@ It allows for user registration, updating various sleep metrics, and retrieving 
 
 ## Note. Setup Api Collection
 
-- **import **wysa.postman_collection.json** collection form api-collection folder in Postman and other testing tool . then test api end point
+- **import **wysa.postman_collection.json** collection form api-collection folder in Postman and other testing tool.
+ then test api end point
 
 
 ## Tech Stack
