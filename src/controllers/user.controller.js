@@ -73,8 +73,10 @@ const updateFewWeeks = asyncHandler(async (req, res) => {
 
     // Respond with the updated user data and a success message
     return res.status(200).json(
-        new ApiResponse(200, user, "weekSleeping updated successfully")
+        new ApiResponse(200, {}, "weekSleeping updated successfully")
     );
+
+    
 });
 
 const updateNoOfWeeks = asyncHandler(async (req, res) => {
@@ -96,7 +98,7 @@ const updateNoOfWeeks = asyncHandler(async (req, res) => {
 
     // Respond with the updated user data and a success message
     return res.status(200).json(
-        new ApiResponse(200, user, "no Of Weeks updated successfully")
+        new ApiResponse(200, {}, "no Of Weeks updated successfully")
     );
 });
 
@@ -119,7 +121,7 @@ const updateSleepTime = asyncHandler(async (req, res) => {
 
     // Respond with the updated user data and a success message
     return res.status(200).json(
-        new ApiResponse(200, user, "sleepTime updated successfully")
+        new ApiResponse(200, {}, "sleepTime updated successfully")
     );
 });
 
@@ -144,7 +146,7 @@ const updateSleepOut = asyncHandler(async (req, res) => {
 
     // Respond with the updated user data and a success message
     return res.status(200).json(
-        new ApiResponse(200, user, "sleepOut updated successfully")
+        new ApiResponse(200, {}, "sleepOut updated successfully")
     );
 });
 
@@ -168,7 +170,7 @@ const updateHours = asyncHandler(async (req, res) => {
 
     // Respond with the updated user data and a success message
     return res.status(200).json(
-        new ApiResponse(200, user, "hours updated successfully")
+        new ApiResponse(200, {}, "hours updated successfully")
     );
 });
 
