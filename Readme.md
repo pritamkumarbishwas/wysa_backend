@@ -43,6 +43,10 @@ Install the required Node.js packages by running:
 ```bash
 npm install
 ```
+### Note. Setup Api Collection
+
+import **wysa.postman_collection.json** collection form api-collection folder in Postman and other testing tool . then test api end point
+
 
 ### 3. Set Up Environment Variables
 
